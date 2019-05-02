@@ -1,0 +1,1547 @@
+Starting Unit Test 1 - smithy.
+GAME STATE 1
+FAIL: Current player handCount Error: G.handCount[0]=5, G_orig.handCount[0]=5
+FAIL: Other player handCount Error: G.handCount[1]=2, G_orig.handCount[1]=0
+FAIL: Current player deckCount Error: G.deckCount[0]=5, G_orig.deckCount[0]=5
+FAIL: Other player deckCount Error: G.deckCount[1]=8, G_orig.deckCount[1]=10
+PASS - Current player's original hand remains unchanged
+PASS - Victory card piles (estate, duchy, province) remain unchanged 
+PASS - Remaining game state variables unchanged
+GAME STATE 2
+FAIL: Current player handCount Error: G.handCount[0]=5, G_orig.handCount[0]=5
+FAIL: Other player handCount Error: G.handCount[1]=2, G_orig.handCount[1]=0
+FAIL: Current player deckCount Error: G.deckCount[0]=5, G_orig.deckCount[0]=5
+FAIL: Other player deckCount Error: G.deckCount[1]=8, G_orig.deckCount[1]=10
+PASS - Current player's original hand remains unchanged
+PASS - Victory card piles (estate, duchy, province) remain unchanged 
+PASS - Remaining game state variables unchanged
+GAME STATE 3
+FAIL: Current player handCount Error: G.handCount[0]=5, G_orig.handCount[0]=5
+FAIL: Other player handCount Error: G.handCount[1]=2, G_orig.handCount[1]=0
+FAIL: Current player deckCount Error: G.deckCount[0]=5, G_orig.deckCount[0]=5
+FAIL: Other player deckCount Error: G.deckCount[1]=8, G_orig.deckCount[1]=10
+PASS - Current player's original hand remains unchanged
+PASS - Victory card piles (estate, duchy, province) remain unchanged 
+PASS - Remaining game state variables unchanged
+Function 'updateCoins'
+Lines executed:81.82% of 11
+Branches executed:100.00% of 8
+Taken at least once:75.00% of 8
+No calls
+
+Function 'gainCard'
+Lines executed:0.00% of 13
+Branches executed:0.00% of 6
+Taken at least once:0.00% of 6
+Calls executed:0.00% of 1
+
+Function 'discardCard'
+Lines executed:84.62% of 13
+Branches executed:100.00% of 6
+Taken at least once:50.00% of 6
+No calls
+
+Function 'cardEffect'
+Lines executed:3.68% of 190
+Branches executed:13.94% of 165
+Taken at least once:1.21% of 165
+Calls executed:3.64% of 55
+
+Function 'action_sea_hag'
+Lines executed:0.00% of 9
+Branches executed:0.00% of 4
+Taken at least once:0.00% of 4
+Calls executed:0.00% of 1
+
+Function 'action_feast'
+Lines executed:0.00% of 17
+Branches executed:0.00% of 10
+Taken at least once:0.00% of 10
+Calls executed:0.00% of 6
+
+Function 'action_remodel'
+Lines executed:0.00% of 12
+Branches executed:0.00% of 6
+Taken at least once:0.00% of 6
+Calls executed:0.00% of 6
+
+Function 'action_smithy'
+Lines executed:100.00% of 6
+Branches executed:100.00% of 2
+Taken at least once:100.00% of 2
+Calls executed:100.00% of 3
+
+Function 'action_adventurer'
+Lines executed:0.00% of 18
+Branches executed:0.00% of 12
+Taken at least once:0.00% of 12
+Calls executed:0.00% of 3
+
+Function 'getCost'
+Lines executed:0.00% of 30
+Branches executed:0.00% of 28
+Taken at least once:0.00% of 28
+No calls
+
+Function 'drawCard'
+Lines executed:36.36% of 22
+Branches executed:33.33% of 6
+Taken at least once:16.67% of 6
+Calls executed:0.00% of 1
+
+Function 'getWinners'
+Lines executed:0.00% of 24
+Branches executed:0.00% of 22
+Taken at least once:0.00% of 22
+Calls executed:0.00% of 2
+
+Function 'scoreFor'
+Lines executed:0.00% of 24
+Branches executed:0.00% of 42
+Taken at least once:0.00% of 42
+Calls executed:0.00% of 3
+
+Function 'isGameOver'
+Lines executed:0.00% of 10
+Branches executed:0.00% of 8
+Taken at least once:0.00% of 8
+No calls
+
+Function 'endTurn'
+Lines executed:0.00% of 20
+Branches executed:0.00% of 6
+Taken at least once:0.00% of 6
+Calls executed:0.00% of 3
+
+Function 'whoseTurn'
+Lines executed:100.00% of 2
+No branches
+No calls
+
+Function 'fullDeckCount'
+Lines executed:0.00% of 9
+Branches executed:0.00% of 12
+Taken at least once:0.00% of 12
+No calls
+
+Function 'supplyCount'
+Lines executed:0.00% of 2
+No branches
+No calls
+
+Function 'handCard'
+Lines executed:0.00% of 3
+No branches
+Calls executed:0.00% of 1
+
+Function 'numHandCards'
+Lines executed:0.00% of 2
+No branches
+Calls executed:0.00% of 1
+
+Function 'buyCard'
+Lines executed:0.00% of 13
+Branches executed:0.00% of 6
+Taken at least once:0.00% of 6
+Calls executed:0.00% of 4
+
+Function 'playCard'
+Lines executed:0.00% of 14
+Branches executed:0.00% of 10
+Taken at least once:0.00% of 10
+Calls executed:0.00% of 3
+
+Function 'shuffle'
+Lines executed:93.75% of 16
+Branches executed:100.00% of 8
+Taken at least once:87.50% of 8
+Calls executed:100.00% of 2
+
+Function 'initializeGame'
+Lines executed:85.48% of 62
+Branches executed:100.00% of 46
+Taken at least once:80.43% of 46
+Calls executed:100.00% of 5
+
+Function 'kingdomCards'
+Lines executed:0.00% of 13
+No branches
+No calls
+
+Function 'newGame'
+Lines executed:0.00% of 3
+No branches
+No calls
+
+Function 'compare'
+Lines executed:83.33% of 6
+Branches executed:100.00% of 4
+Taken at least once:75.00% of 4
+No calls
+
+File 'dominion.c'
+Lines executed:20.57% of 564
+Branches executed:23.74% of 417
+Taken at least once:14.63% of 417
+Calls executed:12.00% of 100
+Creating 'dominion.c.gcov'
+
+Starting Unit Test 2 - sea_hag.
+GAME STATE 1
+FAIL - Other players gain Curse card: G.deck[1][9]=1
+FAIL - Other players gain Curse card: G.deck[2][9]=1
+FAIL - Other players gain Curse card: G.deck[3][9]=1
+FAIL - G.deckCount[0] != G_orig.deckout[0]
+FAIL - Other Player: G.discardCount[1] - 1 != G_orig.discardCount[1] - 1
+FAIL - Other Player: G.discardCount[2] - 1 != G_orig.discardCount[2] - 1
+FAIL - Other Player: G.discardCount[3] - 1 != G_orig.discardCount[3] - 1
+FAIL - Current Player's Deck Remains Unchanged: G_orig.deck[0][3]=4 --- G.deck[0][3]=0
+PASS - Victory card piles (estate, duchy, province) remain unchanged 
+FAIL: size of curse pile should decrease by n-1, where n is the number of players
+FAIL: discard pile for other player 1 did not increase by 1
+FAIL: discard pile for other player 2 did not increase by 1
+FAIL: discard pile for other player 3 did not increase by 1
+PASS - Remaining game state variables unchanged
+GAME STATE 2
+FAIL - Other players gain Curse card: G.deck[1][9]=4
+FAIL - Other players gain Curse card: G.deck[2][9]=1
+FAIL - Other players gain Curse card: G.deck[3][9]=4
+FAIL - G.deckCount[0] != G_orig.deckout[0]
+FAIL - Other Player: G.discardCount[1] - 1 != G_orig.discardCount[1] - 1
+FAIL - Other Player: G.discardCount[2] - 1 != G_orig.discardCount[2] - 1
+FAIL - Other Player: G.discardCount[3] - 1 != G_orig.discardCount[3] - 1
+FAIL - Current Player's Deck Remains Unchanged: G_orig.deck[0][3]=4 --- G.deck[0][3]=0
+PASS - Victory card piles (estate, duchy, province) remain unchanged 
+FAIL: size of curse pile should decrease by n-1, where n is the number of players
+FAIL: discard pile for other player 1 did not increase by 1
+FAIL: discard pile for other player 2 did not increase by 1
+FAIL: discard pile for other player 3 did not increase by 1
+PASS - Remaining game state variables unchanged
+GAME STATE 3
+FAIL - Other players gain Curse card: G.deck[1][9]=1
+FAIL - Other players gain Curse card: G.deck[2][9]=1
+FAIL - Other players gain Curse card: G.deck[3][9]=4
+FAIL - G.deckCount[0] != G_orig.deckout[0]
+FAIL - Other Player: G.discardCount[1] - 1 != G_orig.discardCount[1] - 1
+FAIL - Other Player: G.discardCount[2] - 1 != G_orig.discardCount[2] - 1
+FAIL - Other Player: G.discardCount[3] - 1 != G_orig.discardCount[3] - 1
+FAIL - Current Player's Deck Remains Unchanged: G_orig.deck[0][3]=4 --- G.deck[0][3]=0
+PASS - Victory card piles (estate, duchy, province) remain unchanged 
+FAIL: size of curse pile should decrease by n-1, where n is the number of players
+FAIL: discard pile for other player 1 did not increase by 1
+FAIL: discard pile for other player 2 did not increase by 1
+FAIL: discard pile for other player 3 did not increase by 1
+PASS - Remaining game state variables unchanged
+Function 'updateCoins'
+Lines executed:81.82% of 11
+Branches executed:100.00% of 8
+Taken at least once:75.00% of 8
+No calls
+
+Function 'gainCard'
+Lines executed:0.00% of 13
+Branches executed:0.00% of 6
+Taken at least once:0.00% of 6
+Calls executed:0.00% of 1
+
+Function 'discardCard'
+Lines executed:84.62% of 13
+Branches executed:100.00% of 6
+Taken at least once:50.00% of 6
+No calls
+
+Function 'cardEffect'
+Lines executed:4.21% of 190
+Branches executed:13.94% of 165
+Taken at least once:1.82% of 165
+Calls executed:5.45% of 55
+
+Function 'action_sea_hag'
+Lines executed:100.00% of 9
+Branches executed:100.00% of 4
+Taken at least once:100.00% of 4
+Calls executed:100.00% of 1
+
+Function 'action_feast'
+Lines executed:0.00% of 17
+Branches executed:0.00% of 10
+Taken at least once:0.00% of 10
+Calls executed:0.00% of 6
+
+Function 'action_remodel'
+Lines executed:0.00% of 12
+Branches executed:0.00% of 6
+Taken at least once:0.00% of 6
+Calls executed:0.00% of 6
+
+Function 'action_smithy'
+Lines executed:100.00% of 6
+Branches executed:100.00% of 2
+Taken at least once:100.00% of 2
+Calls executed:100.00% of 3
+
+Function 'action_adventurer'
+Lines executed:0.00% of 18
+Branches executed:0.00% of 12
+Taken at least once:0.00% of 12
+Calls executed:0.00% of 3
+
+Function 'getCost'
+Lines executed:0.00% of 30
+Branches executed:0.00% of 28
+Taken at least once:0.00% of 28
+No calls
+
+Function 'drawCard'
+Lines executed:36.36% of 22
+Branches executed:33.33% of 6
+Taken at least once:16.67% of 6
+Calls executed:0.00% of 1
+
+Function 'getWinners'
+Lines executed:0.00% of 24
+Branches executed:0.00% of 22
+Taken at least once:0.00% of 22
+Calls executed:0.00% of 2
+
+Function 'scoreFor'
+Lines executed:0.00% of 24
+Branches executed:0.00% of 42
+Taken at least once:0.00% of 42
+Calls executed:0.00% of 3
+
+Function 'isGameOver'
+Lines executed:0.00% of 10
+Branches executed:0.00% of 8
+Taken at least once:0.00% of 8
+No calls
+
+Function 'endTurn'
+Lines executed:0.00% of 20
+Branches executed:0.00% of 6
+Taken at least once:0.00% of 6
+Calls executed:0.00% of 3
+
+Function 'whoseTurn'
+Lines executed:100.00% of 2
+No branches
+No calls
+
+Function 'fullDeckCount'
+Lines executed:0.00% of 9
+Branches executed:0.00% of 12
+Taken at least once:0.00% of 12
+No calls
+
+Function 'supplyCount'
+Lines executed:0.00% of 2
+No branches
+No calls
+
+Function 'handCard'
+Lines executed:0.00% of 3
+No branches
+Calls executed:0.00% of 1
+
+Function 'numHandCards'
+Lines executed:0.00% of 2
+No branches
+Calls executed:0.00% of 1
+
+Function 'buyCard'
+Lines executed:0.00% of 13
+Branches executed:0.00% of 6
+Taken at least once:0.00% of 6
+Calls executed:0.00% of 4
+
+Function 'playCard'
+Lines executed:0.00% of 14
+Branches executed:0.00% of 10
+Taken at least once:0.00% of 10
+Calls executed:0.00% of 3
+
+Function 'shuffle'
+Lines executed:93.75% of 16
+Branches executed:100.00% of 8
+Taken at least once:87.50% of 8
+Calls executed:100.00% of 2
+
+Function 'initializeGame'
+Lines executed:85.48% of 62
+Branches executed:100.00% of 46
+Taken at least once:80.43% of 46
+Calls executed:100.00% of 5
+
+Function 'kingdomCards'
+Lines executed:0.00% of 13
+No branches
+No calls
+
+Function 'newGame'
+Lines executed:0.00% of 3
+No branches
+No calls
+
+Function 'compare'
+Lines executed:83.33% of 6
+Branches executed:100.00% of 4
+Taken at least once:75.00% of 4
+No calls
+
+File 'dominion.c'
+Lines executed:22.34% of 564
+Branches executed:24.70% of 417
+Taken at least once:15.83% of 417
+Calls executed:14.00% of 100
+Creating 'dominion.c.gcov'
+
+Starting Unit Test 3 - adventurer.
+GAME STATE 1
+FAIL: Current player's hand should increase by 2 
+PASS - Additional 2 cards in current player's hand are treasure cards
+FAIL: Current player should discard all revealed cards that are not treasury cards
+PASS - Other players' decks remain unchanged
+PASS - Victory card piles (estate, duchy, province) remain unchanged 
+PASS - Remaining game state variables unchanged
+GAME STATE 2
+FAIL: Current player's hand should increase by 2 
+PASS - Additional 2 cards in current player's hand are treasure cards
+FAIL: Current player should discard all revealed cards that are not treasury cards
+PASS - Other players' decks remain unchanged
+PASS - Victory card piles (estate, duchy, province) remain unchanged 
+PASS - Remaining game state variables unchanged
+GAME STATE 3
+FAIL: Current player's hand should increase by 2 
+PASS - Additional 2 cards in current player's hand are treasure cards
+FAIL: Current player should discard all revealed cards that are not treasury cards
+PASS - Other players' decks remain unchanged
+PASS - Victory card piles (estate, duchy, province) remain unchanged 
+PASS - Remaining game state variables unchanged
+Function 'updateCoins'
+Lines executed:81.82% of 11
+Branches executed:100.00% of 8
+Taken at least once:75.00% of 8
+No calls
+
+Function 'gainCard'
+Lines executed:0.00% of 13
+Branches executed:0.00% of 6
+Taken at least once:0.00% of 6
+Calls executed:0.00% of 1
+
+Function 'discardCard'
+Lines executed:84.62% of 13
+Branches executed:100.00% of 6
+Taken at least once:50.00% of 6
+No calls
+
+Function 'cardEffect'
+Lines executed:4.74% of 190
+Branches executed:13.94% of 165
+Taken at least once:2.42% of 165
+Calls executed:7.27% of 55
+
+Function 'action_sea_hag'
+Lines executed:100.00% of 9
+Branches executed:100.00% of 4
+Taken at least once:100.00% of 4
+Calls executed:100.00% of 1
+
+Function 'action_feast'
+Lines executed:0.00% of 17
+Branches executed:0.00% of 10
+Taken at least once:0.00% of 10
+Calls executed:0.00% of 6
+
+Function 'action_remodel'
+Lines executed:0.00% of 12
+Branches executed:0.00% of 6
+Taken at least once:0.00% of 6
+Calls executed:0.00% of 6
+
+Function 'action_smithy'
+Lines executed:100.00% of 6
+Branches executed:100.00% of 2
+Taken at least once:100.00% of 2
+Calls executed:100.00% of 3
+
+Function 'action_adventurer'
+Lines executed:66.67% of 18
+Branches executed:66.67% of 12
+Taken at least once:41.67% of 12
+Calls executed:66.67% of 3
+
+Function 'getCost'
+Lines executed:0.00% of 30
+Branches executed:0.00% of 28
+Taken at least once:0.00% of 28
+No calls
+
+Function 'drawCard'
+Lines executed:36.36% of 22
+Branches executed:33.33% of 6
+Taken at least once:16.67% of 6
+Calls executed:0.00% of 1
+
+Function 'getWinners'
+Lines executed:0.00% of 24
+Branches executed:0.00% of 22
+Taken at least once:0.00% of 22
+Calls executed:0.00% of 2
+
+Function 'scoreFor'
+Lines executed:0.00% of 24
+Branches executed:0.00% of 42
+Taken at least once:0.00% of 42
+Calls executed:0.00% of 3
+
+Function 'isGameOver'
+Lines executed:0.00% of 10
+Branches executed:0.00% of 8
+Taken at least once:0.00% of 8
+No calls
+
+Function 'endTurn'
+Lines executed:0.00% of 20
+Branches executed:0.00% of 6
+Taken at least once:0.00% of 6
+Calls executed:0.00% of 3
+
+Function 'whoseTurn'
+Lines executed:100.00% of 2
+No branches
+No calls
+
+Function 'fullDeckCount'
+Lines executed:0.00% of 9
+Branches executed:0.00% of 12
+Taken at least once:0.00% of 12
+No calls
+
+Function 'supplyCount'
+Lines executed:0.00% of 2
+No branches
+No calls
+
+Function 'handCard'
+Lines executed:0.00% of 3
+No branches
+Calls executed:0.00% of 1
+
+Function 'numHandCards'
+Lines executed:0.00% of 2
+No branches
+Calls executed:0.00% of 1
+
+Function 'buyCard'
+Lines executed:0.00% of 13
+Branches executed:0.00% of 6
+Taken at least once:0.00% of 6
+Calls executed:0.00% of 4
+
+Function 'playCard'
+Lines executed:0.00% of 14
+Branches executed:0.00% of 10
+Taken at least once:0.00% of 10
+Calls executed:0.00% of 3
+
+Function 'shuffle'
+Lines executed:93.75% of 16
+Branches executed:100.00% of 8
+Taken at least once:87.50% of 8
+Calls executed:100.00% of 2
+
+Function 'initializeGame'
+Lines executed:85.48% of 62
+Branches executed:100.00% of 46
+Taken at least once:80.43% of 46
+Calls executed:100.00% of 5
+
+Function 'kingdomCards'
+Lines executed:0.00% of 13
+No branches
+No calls
+
+Function 'newGame'
+Lines executed:0.00% of 3
+No branches
+No calls
+
+Function 'compare'
+Lines executed:83.33% of 6
+Branches executed:100.00% of 4
+Taken at least once:75.00% of 4
+No calls
+
+File 'dominion.c'
+Lines executed:24.65% of 564
+Branches executed:26.62% of 417
+Taken at least once:17.27% of 417
+Calls executed:17.00% of 100
+Creating 'dominion.c.gcov'
+
+Starting Unit Test 4 - remodel.
+GAME STATE 1
+FAIL: gained card was accepted, but cost was too high
+PASS - gained card was accepted, and cost was within bounds
+FAIL: gained card was accepted, but cost was too high
+PASS - verified gained card is correct
+PASS - verified current player trashed a card
+PASS - verified current player's discard pile increased by 1
+PASS - verified other player's decks remain unchanged
+PASS - Remaining game state variables unchanged
+GAME STATE 2
+PASS - gained card was accepted, and cost was within bounds
+PASS - gained card was accepted, and cost was within bounds
+FAIL: gained card was accepted, but cost was too high
+PASS - verified gained card is correct
+PASS - verified current player trashed a card
+PASS - verified current player's discard pile increased by 1
+PASS - verified other player's decks remain unchanged
+PASS - Remaining game state variables unchanged
+GAME STATE 3
+FAIL: gained card was accepted, but cost was too high
+PASS - gained card was accepted, and cost was within bounds
+FAIL: gained card was accepted, but cost was too high
+PASS - verified gained card is correct
+PASS - verified current player trashed a card
+PASS - verified current player's discard pile increased by 1
+PASS - verified other player's decks remain unchanged
+PASS - Remaining game state variables unchanged
+GAME STATE 4
+PASS - gained card was accepted, and cost was within bounds
+PASS - gained card was accepted, and cost was within bounds
+FAIL: gained card was accepted, but cost was too high
+PASS - verified gained card is correct
+PASS - verified current player trashed a card
+PASS - verified current player's discard pile increased by 1
+PASS - verified other player's decks remain unchanged
+PASS - Remaining game state variables unchanged
+GAME STATE 5
+FAIL: gained card was accepted, but cost was too high
+PASS - gained card was accepted, and cost was within bounds
+FAIL: gained card was accepted, but cost was too high
+PASS - verified gained card is correct
+PASS - verified current player trashed a card
+PASS - verified current player's discard pile increased by 1
+PASS - verified other player's decks remain unchanged
+PASS - Remaining game state variables unchanged
+Function 'updateCoins'
+Lines executed:81.82% of 11
+Branches executed:100.00% of 8
+Taken at least once:75.00% of 8
+No calls
+
+Function 'gainCard'
+Lines executed:61.54% of 13
+Branches executed:100.00% of 6
+Taken at least once:50.00% of 6
+Calls executed:100.00% of 1
+
+Function 'discardCard'
+Lines executed:92.31% of 13
+Branches executed:100.00% of 6
+Taken at least once:66.67% of 6
+No calls
+
+Function 'cardEffect'
+Lines executed:5.26% of 190
+Branches executed:13.94% of 165
+Taken at least once:3.03% of 165
+Calls executed:9.09% of 55
+
+Function 'action_sea_hag'
+Lines executed:100.00% of 9
+Branches executed:100.00% of 4
+Taken at least once:100.00% of 4
+Calls executed:100.00% of 1
+
+Function 'action_feast'
+Lines executed:0.00% of 17
+Branches executed:0.00% of 10
+Taken at least once:0.00% of 10
+Calls executed:0.00% of 6
+
+Function 'action_remodel'
+Lines executed:91.67% of 12
+Branches executed:100.00% of 6
+Taken at least once:66.67% of 6
+Calls executed:100.00% of 6
+
+Function 'action_smithy'
+Lines executed:100.00% of 6
+Branches executed:100.00% of 2
+Taken at least once:100.00% of 2
+Calls executed:100.00% of 3
+
+Function 'action_adventurer'
+Lines executed:66.67% of 18
+Branches executed:66.67% of 12
+Taken at least once:41.67% of 12
+Calls executed:66.67% of 3
+
+Function 'getCost'
+Lines executed:30.00% of 30
+Branches executed:100.00% of 28
+Taken at least once:25.00% of 28
+No calls
+
+Function 'drawCard'
+Lines executed:36.36% of 22
+Branches executed:33.33% of 6
+Taken at least once:16.67% of 6
+Calls executed:0.00% of 1
+
+Function 'getWinners'
+Lines executed:0.00% of 24
+Branches executed:0.00% of 22
+Taken at least once:0.00% of 22
+Calls executed:0.00% of 2
+
+Function 'scoreFor'
+Lines executed:0.00% of 24
+Branches executed:0.00% of 42
+Taken at least once:0.00% of 42
+Calls executed:0.00% of 3
+
+Function 'isGameOver'
+Lines executed:0.00% of 10
+Branches executed:0.00% of 8
+Taken at least once:0.00% of 8
+No calls
+
+Function 'endTurn'
+Lines executed:0.00% of 20
+Branches executed:0.00% of 6
+Taken at least once:0.00% of 6
+Calls executed:0.00% of 3
+
+Function 'whoseTurn'
+Lines executed:100.00% of 2
+No branches
+No calls
+
+Function 'fullDeckCount'
+Lines executed:0.00% of 9
+Branches executed:0.00% of 12
+Taken at least once:0.00% of 12
+No calls
+
+Function 'supplyCount'
+Lines executed:100.00% of 2
+No branches
+No calls
+
+Function 'handCard'
+Lines executed:0.00% of 3
+No branches
+Calls executed:0.00% of 1
+
+Function 'numHandCards'
+Lines executed:0.00% of 2
+No branches
+Calls executed:0.00% of 1
+
+Function 'buyCard'
+Lines executed:0.00% of 13
+Branches executed:0.00% of 6
+Taken at least once:0.00% of 6
+Calls executed:0.00% of 4
+
+Function 'playCard'
+Lines executed:0.00% of 14
+Branches executed:0.00% of 10
+Taken at least once:0.00% of 10
+Calls executed:0.00% of 3
+
+Function 'shuffle'
+Lines executed:93.75% of 16
+Branches executed:100.00% of 8
+Taken at least once:87.50% of 8
+Calls executed:100.00% of 2
+
+Function 'initializeGame'
+Lines executed:85.48% of 62
+Branches executed:100.00% of 46
+Taken at least once:82.61% of 46
+Calls executed:100.00% of 5
+
+Function 'kingdomCards'
+Lines executed:0.00% of 13
+No branches
+No calls
+
+Function 'newGame'
+Lines executed:0.00% of 3
+No branches
+No calls
+
+Function 'compare'
+Lines executed:83.33% of 6
+Branches executed:100.00% of 4
+Taken at least once:75.00% of 4
+No calls
+
+File 'dominion.c'
+Lines executed:30.32% of 564
+Branches executed:36.21% of 417
+Taken at least once:21.34% of 417
+Calls executed:25.00% of 100
+Creating 'dominion.c.gcov'
+
+Starting Card Test 1 - smithy.
+GAME STATE 1
+FAIL: Invalid hand - player didn't have Smithy
+FAIL: Invalid Current Player
+FAIL: Invalid Hand Position
+PASSED: Invalid Card
+FAIL: Invalid Choice Inputs 
+FAIL: Invalid Bonus input
+GAME STATE 2
+FAIL: Invalid hand - player didn't have Smithy
+FAIL: Invalid Current Player
+FAIL: Invalid Hand Position
+PASSED: Invalid Card
+FAIL: Invalid Choice Inputs 
+FAIL: Invalid Bonus input
+GAME STATE 3
+FAIL: Invalid hand - player didn't have Smithy
+FAIL: Invalid Current Player
+FAIL: Invalid Hand Position
+PASSED: Invalid Card
+FAIL: Invalid Choice Inputs 
+FAIL: Invalid Bonus input
+*** the following test is longer in the game state loop***
+FAIL: Uninitialized game state 
+Function 'updateCoins'
+Lines executed:81.82% of 11
+Branches executed:100.00% of 8
+Taken at least once:75.00% of 8
+No calls
+
+Function 'gainCard'
+Lines executed:61.54% of 13
+Branches executed:100.00% of 6
+Taken at least once:50.00% of 6
+Calls executed:100.00% of 1
+
+Function 'discardCard'
+Lines executed:92.31% of 13
+Branches executed:100.00% of 6
+Taken at least once:66.67% of 6
+No calls
+
+Function 'cardEffect'
+Lines executed:6.32% of 190
+Branches executed:13.94% of 165
+Taken at least once:4.24% of 165
+Calls executed:9.09% of 55
+
+Function 'action_sea_hag'
+Lines executed:100.00% of 9
+Branches executed:100.00% of 4
+Taken at least once:100.00% of 4
+Calls executed:100.00% of 1
+
+Function 'action_feast'
+Lines executed:0.00% of 17
+Branches executed:0.00% of 10
+Taken at least once:0.00% of 10
+Calls executed:0.00% of 6
+
+Function 'action_remodel'
+Lines executed:91.67% of 12
+Branches executed:100.00% of 6
+Taken at least once:66.67% of 6
+Calls executed:100.00% of 6
+
+Function 'action_smithy'
+Lines executed:100.00% of 6
+Branches executed:100.00% of 2
+Taken at least once:100.00% of 2
+Calls executed:100.00% of 3
+
+Function 'action_adventurer'
+Lines executed:66.67% of 18
+Branches executed:66.67% of 12
+Taken at least once:41.67% of 12
+Calls executed:66.67% of 3
+
+Function 'getCost'
+Lines executed:30.00% of 30
+Branches executed:100.00% of 28
+Taken at least once:25.00% of 28
+No calls
+
+Function 'drawCard'
+Lines executed:77.27% of 22
+Branches executed:100.00% of 6
+Taken at least once:66.67% of 6
+Calls executed:100.00% of 1
+
+Function 'getWinners'
+Lines executed:0.00% of 24
+Branches executed:0.00% of 22
+Taken at least once:0.00% of 22
+Calls executed:0.00% of 2
+
+Function 'scoreFor'
+Lines executed:0.00% of 24
+Branches executed:0.00% of 42
+Taken at least once:0.00% of 42
+Calls executed:0.00% of 3
+
+Function 'isGameOver'
+Lines executed:0.00% of 10
+Branches executed:0.00% of 8
+Taken at least once:0.00% of 8
+No calls
+
+Function 'endTurn'
+Lines executed:0.00% of 20
+Branches executed:0.00% of 6
+Taken at least once:0.00% of 6
+Calls executed:0.00% of 3
+
+Function 'whoseTurn'
+Lines executed:100.00% of 2
+No branches
+No calls
+
+Function 'fullDeckCount'
+Lines executed:0.00% of 9
+Branches executed:0.00% of 12
+Taken at least once:0.00% of 12
+No calls
+
+Function 'supplyCount'
+Lines executed:100.00% of 2
+No branches
+No calls
+
+Function 'handCard'
+Lines executed:0.00% of 3
+No branches
+Calls executed:0.00% of 1
+
+Function 'numHandCards'
+Lines executed:0.00% of 2
+No branches
+Calls executed:0.00% of 1
+
+Function 'buyCard'
+Lines executed:0.00% of 13
+Branches executed:0.00% of 6
+Taken at least once:0.00% of 6
+Calls executed:0.00% of 4
+
+Function 'playCard'
+Lines executed:0.00% of 14
+Branches executed:0.00% of 10
+Taken at least once:0.00% of 10
+Calls executed:0.00% of 3
+
+Function 'shuffle'
+Lines executed:100.00% of 16
+Branches executed:100.00% of 8
+Taken at least once:100.00% of 8
+Calls executed:100.00% of 2
+
+Function 'initializeGame'
+Lines executed:85.48% of 62
+Branches executed:100.00% of 46
+Taken at least once:82.61% of 46
+Calls executed:100.00% of 5
+
+Function 'kingdomCards'
+Lines executed:0.00% of 13
+No branches
+No calls
+
+Function 'newGame'
+Lines executed:0.00% of 3
+No branches
+No calls
+
+Function 'compare'
+Lines executed:83.33% of 6
+Branches executed:100.00% of 4
+Taken at least once:75.00% of 4
+No calls
+
+File 'dominion.c'
+Lines executed:32.45% of 564
+Branches executed:37.17% of 417
+Taken at least once:22.78% of 417
+Calls executed:26.00% of 100
+Creating 'dominion.c.gcov'
+
+Starting Card Test 2 - council_room.
+GAME STATE 1
+PASS - Current player's handCount increases by 4 (+1 council_room, +4 drawn, -1 discard = 4)
+PASS - Other player's each add one card
+PASS - Current player's number of buys increased by 1
+PASS - Current player's deck reduces by 4
+PASS - Other players' decks reduce by 1
+PASS - Current player's original hand remains unchanged
+PASS - Victory card piles (estate, duchy, province) remain unchanged 
+PASS - Remaining game state variables unchanged
+GAME STATE 2
+PASS - Current player's handCount increases by 4 (+1 council_room, +4 drawn, -1 discard = 4)
+PASS - Other player's each add one card
+PASS - Current player's number of buys increased by 1
+PASS - Current player's deck reduces by 4
+PASS - Other players' decks reduce by 1
+PASS - Current player's original hand remains unchanged
+PASS - Victory card piles (estate, duchy, province) remain unchanged 
+PASS - Remaining game state variables unchanged
+GAME STATE 3
+PASS - Current player's handCount increases by 4 (+1 council_room, +4 drawn, -1 discard = 4)
+PASS - Other player's each add one card
+PASS - Current player's number of buys increased by 1
+PASS - Current player's deck reduces by 4
+PASS - Other players' decks reduce by 1
+PASS - Current player's original hand remains unchanged
+PASS - Victory card piles (estate, duchy, province) remain unchanged 
+PASS - Remaining game state variables unchanged
+Function 'updateCoins'
+Lines executed:81.82% of 11
+Branches executed:100.00% of 8
+Taken at least once:75.00% of 8
+No calls
+
+Function 'gainCard'
+Lines executed:61.54% of 13
+Branches executed:100.00% of 6
+Taken at least once:50.00% of 6
+Calls executed:100.00% of 1
+
+Function 'discardCard'
+Lines executed:92.31% of 13
+Branches executed:100.00% of 6
+Taken at least once:66.67% of 6
+No calls
+
+Function 'cardEffect'
+Lines executed:10.53% of 190
+Branches executed:17.58% of 165
+Taken at least once:8.48% of 165
+Calls executed:14.55% of 55
+
+Function 'action_sea_hag'
+Lines executed:100.00% of 9
+Branches executed:100.00% of 4
+Taken at least once:100.00% of 4
+Calls executed:100.00% of 1
+
+Function 'action_feast'
+Lines executed:0.00% of 17
+Branches executed:0.00% of 10
+Taken at least once:0.00% of 10
+Calls executed:0.00% of 6
+
+Function 'action_remodel'
+Lines executed:91.67% of 12
+Branches executed:100.00% of 6
+Taken at least once:66.67% of 6
+Calls executed:100.00% of 6
+
+Function 'action_smithy'
+Lines executed:100.00% of 6
+Branches executed:100.00% of 2
+Taken at least once:100.00% of 2
+Calls executed:100.00% of 3
+
+Function 'action_adventurer'
+Lines executed:66.67% of 18
+Branches executed:66.67% of 12
+Taken at least once:41.67% of 12
+Calls executed:66.67% of 3
+
+Function 'getCost'
+Lines executed:30.00% of 30
+Branches executed:100.00% of 28
+Taken at least once:25.00% of 28
+No calls
+
+Function 'drawCard'
+Lines executed:77.27% of 22
+Branches executed:100.00% of 6
+Taken at least once:66.67% of 6
+Calls executed:100.00% of 1
+
+Function 'getWinners'
+Lines executed:0.00% of 24
+Branches executed:0.00% of 22
+Taken at least once:0.00% of 22
+Calls executed:0.00% of 2
+
+Function 'scoreFor'
+Lines executed:0.00% of 24
+Branches executed:0.00% of 42
+Taken at least once:0.00% of 42
+Calls executed:0.00% of 3
+
+Function 'isGameOver'
+Lines executed:0.00% of 10
+Branches executed:0.00% of 8
+Taken at least once:0.00% of 8
+No calls
+
+Function 'endTurn'
+Lines executed:0.00% of 20
+Branches executed:0.00% of 6
+Taken at least once:0.00% of 6
+Calls executed:0.00% of 3
+
+Function 'whoseTurn'
+Lines executed:100.00% of 2
+No branches
+No calls
+
+Function 'fullDeckCount'
+Lines executed:0.00% of 9
+Branches executed:0.00% of 12
+Taken at least once:0.00% of 12
+No calls
+
+Function 'supplyCount'
+Lines executed:100.00% of 2
+No branches
+No calls
+
+Function 'handCard'
+Lines executed:0.00% of 3
+No branches
+Calls executed:0.00% of 1
+
+Function 'numHandCards'
+Lines executed:0.00% of 2
+No branches
+Calls executed:0.00% of 1
+
+Function 'buyCard'
+Lines executed:0.00% of 13
+Branches executed:0.00% of 6
+Taken at least once:0.00% of 6
+Calls executed:0.00% of 4
+
+Function 'playCard'
+Lines executed:0.00% of 14
+Branches executed:0.00% of 10
+Taken at least once:0.00% of 10
+Calls executed:0.00% of 3
+
+Function 'shuffle'
+Lines executed:100.00% of 16
+Branches executed:100.00% of 8
+Taken at least once:100.00% of 8
+Calls executed:100.00% of 2
+
+Function 'initializeGame'
+Lines executed:85.48% of 62
+Branches executed:100.00% of 46
+Taken at least once:82.61% of 46
+Calls executed:100.00% of 5
+
+Function 'kingdomCards'
+Lines executed:0.00% of 13
+No branches
+No calls
+
+Function 'newGame'
+Lines executed:0.00% of 3
+No branches
+No calls
+
+Function 'compare'
+Lines executed:83.33% of 6
+Branches executed:100.00% of 4
+Taken at least once:75.00% of 4
+No calls
+
+File 'dominion.c'
+Lines executed:33.87% of 564
+Branches executed:38.61% of 417
+Taken at least once:24.46% of 417
+Calls executed:29.00% of 100
+Creating 'dominion.c.gcov'
+
+Starting Card Test 3 - adventurer.
+GAME STATE 1
+FAIL: Invalid hand - player didn't have Adventurer
+FAIL: Invalid Current Player
+FAIL: Invalid Hand Position
+PASSED: Invalid Card
+FAIL: Invalid Choice Inputs 
+FAIL: Invalid Bonus input
+GAME STATE 2
+FAIL: Invalid hand - player didn't have Adventurer
+FAIL: Invalid Current Player
+FAIL: Invalid Hand Position
+PASSED: Invalid Card
+FAIL: Invalid Choice Inputs 
+FAIL: Invalid Bonus input
+GAME STATE 3
+FAIL: Invalid hand - player didn't have Adventurer
+FAIL: Invalid Current Player
+FAIL: Invalid Hand Position
+PASSED: Invalid Card
+FAIL: Invalid Choice Inputs 
+FAIL: Invalid Bonus input
+*** the following test is longer in the game state loop***
+FAIL: Uninitialized game state 
+Function 'updateCoins'
+Lines executed:81.82% of 11
+Branches executed:100.00% of 8
+Taken at least once:75.00% of 8
+No calls
+
+Function 'gainCard'
+Lines executed:61.54% of 13
+Branches executed:100.00% of 6
+Taken at least once:50.00% of 6
+Calls executed:100.00% of 1
+
+Function 'discardCard'
+Lines executed:92.31% of 13
+Branches executed:100.00% of 6
+Taken at least once:66.67% of 6
+No calls
+
+Function 'cardEffect'
+Lines executed:10.53% of 190
+Branches executed:17.58% of 165
+Taken at least once:8.48% of 165
+Calls executed:14.55% of 55
+
+Function 'action_sea_hag'
+Lines executed:100.00% of 9
+Branches executed:100.00% of 4
+Taken at least once:100.00% of 4
+Calls executed:100.00% of 1
+
+Function 'action_feast'
+Lines executed:0.00% of 17
+Branches executed:0.00% of 10
+Taken at least once:0.00% of 10
+Calls executed:0.00% of 6
+
+Function 'action_remodel'
+Lines executed:91.67% of 12
+Branches executed:100.00% of 6
+Taken at least once:66.67% of 6
+Calls executed:100.00% of 6
+
+Function 'action_smithy'
+Lines executed:100.00% of 6
+Branches executed:100.00% of 2
+Taken at least once:100.00% of 2
+Calls executed:100.00% of 3
+
+Function 'action_adventurer'
+Lines executed:100.00% of 18
+Branches executed:83.33% of 12
+Taken at least once:75.00% of 12
+Calls executed:100.00% of 3
+
+Function 'getCost'
+Lines executed:30.00% of 30
+Branches executed:100.00% of 28
+Taken at least once:25.00% of 28
+No calls
+
+Function 'drawCard'
+Lines executed:77.27% of 22
+Branches executed:100.00% of 6
+Taken at least once:66.67% of 6
+Calls executed:100.00% of 1
+
+Function 'getWinners'
+Lines executed:0.00% of 24
+Branches executed:0.00% of 22
+Taken at least once:0.00% of 22
+Calls executed:0.00% of 2
+
+Function 'scoreFor'
+Lines executed:0.00% of 24
+Branches executed:0.00% of 42
+Taken at least once:0.00% of 42
+Calls executed:0.00% of 3
+
+Function 'isGameOver'
+Lines executed:0.00% of 10
+Branches executed:0.00% of 8
+Taken at least once:0.00% of 8
+No calls
+
+Function 'endTurn'
+Lines executed:0.00% of 20
+Branches executed:0.00% of 6
+Taken at least once:0.00% of 6
+Calls executed:0.00% of 3
+
+Function 'whoseTurn'
+Lines executed:100.00% of 2
+No branches
+No calls
+
+Function 'fullDeckCount'
+Lines executed:0.00% of 9
+Branches executed:0.00% of 12
+Taken at least once:0.00% of 12
+No calls
+
+Function 'supplyCount'
+Lines executed:100.00% of 2
+No branches
+No calls
+
+Function 'handCard'
+Lines executed:0.00% of 3
+No branches
+Calls executed:0.00% of 1
+
+Function 'numHandCards'
+Lines executed:0.00% of 2
+No branches
+Calls executed:0.00% of 1
+
+Function 'buyCard'
+Lines executed:0.00% of 13
+Branches executed:0.00% of 6
+Taken at least once:0.00% of 6
+Calls executed:0.00% of 4
+
+Function 'playCard'
+Lines executed:0.00% of 14
+Branches executed:0.00% of 10
+Taken at least once:0.00% of 10
+Calls executed:0.00% of 3
+
+Function 'shuffle'
+Lines executed:100.00% of 16
+Branches executed:100.00% of 8
+Taken at least once:100.00% of 8
+Calls executed:100.00% of 2
+
+Function 'initializeGame'
+Lines executed:85.48% of 62
+Branches executed:100.00% of 46
+Taken at least once:82.61% of 46
+Calls executed:100.00% of 5
+
+Function 'kingdomCards'
+Lines executed:0.00% of 13
+No branches
+No calls
+
+Function 'newGame'
+Lines executed:0.00% of 3
+No branches
+No calls
+
+Function 'compare'
+Lines executed:83.33% of 6
+Branches executed:100.00% of 4
+Taken at least once:75.00% of 4
+No calls
+
+File 'dominion.c'
+Lines executed:34.93% of 564
+Branches executed:39.09% of 417
+Taken at least once:25.42% of 417
+Calls executed:30.00% of 100
+Creating 'dominion.c.gcov'
+
+Starting Card Test 4 - village.
+GAME STATE 1
+PASS - Current player's number of action increased by 2
+PASS - Current player's handCount increases by 3 (+1 village, +1 drawn, -1 discard = 3)
+PASS - Other players' handCounts remain unchanged
+PASS - Current player's deck reduces by 3
+PASS - Other players' decks remain unchanged
+PASS - Current player's original hand remains unchanged
+PASS - Victory card piles (estate, duchy, province) remain unchanged 
+PASS - Remaining game state variables unchanged
+GAME STATE 2
+PASS - Current player's number of action increased by 2
+PASS - Current player's handCount increases by 3 (+1 village, +1 drawn, -1 discard = 3)
+PASS - Other players' handCounts remain unchanged
+PASS - Current player's deck reduces by 3
+PASS - Other players' decks remain unchanged
+PASS - Current player's original hand remains unchanged
+PASS - Victory card piles (estate, duchy, province) remain unchanged 
+PASS - Remaining game state variables unchanged
+GAME STATE 3
+PASS - Current player's number of action increased by 2
+PASS - Current player's handCount increases by 3 (+1 village, +1 drawn, -1 discard = 3)
+PASS - Other players' handCounts remain unchanged
+PASS - Current player's deck reduces by 3
+PASS - Other players' decks remain unchanged
+PASS - Current player's original hand remains unchanged
+PASS - Victory card piles (estate, duchy, province) remain unchanged 
+PASS - Remaining game state variables unchanged
+Function 'updateCoins'
+Lines executed:81.82% of 11
+Branches executed:100.00% of 8
+Taken at least once:75.00% of 8
+No calls
+
+Function 'gainCard'
+Lines executed:61.54% of 13
+Branches executed:100.00% of 6
+Taken at least once:50.00% of 6
+Calls executed:100.00% of 1
+
+Function 'discardCard'
+Lines executed:92.31% of 13
+Branches executed:100.00% of 6
+Taken at least once:66.67% of 6
+No calls
+
+Function 'cardEffect'
+Lines executed:12.63% of 190
+Branches executed:17.58% of 165
+Taken at least once:9.09% of 165
+Calls executed:18.18% of 55
+
+Function 'action_sea_hag'
+Lines executed:100.00% of 9
+Branches executed:100.00% of 4
+Taken at least once:100.00% of 4
+Calls executed:100.00% of 1
+
+Function 'action_feast'
+Lines executed:0.00% of 17
+Branches executed:0.00% of 10
+Taken at least once:0.00% of 10
+Calls executed:0.00% of 6
+
+Function 'action_remodel'
+Lines executed:91.67% of 12
+Branches executed:100.00% of 6
+Taken at least once:66.67% of 6
+Calls executed:100.00% of 6
+
+Function 'action_smithy'
+Lines executed:100.00% of 6
+Branches executed:100.00% of 2
+Taken at least once:100.00% of 2
+Calls executed:100.00% of 3
+
+Function 'action_adventurer'
+Lines executed:100.00% of 18
+Branches executed:83.33% of 12
+Taken at least once:75.00% of 12
+Calls executed:100.00% of 3
+
+Function 'getCost'
+Lines executed:30.00% of 30
+Branches executed:100.00% of 28
+Taken at least once:25.00% of 28
+No calls
+
+Function 'drawCard'
+Lines executed:77.27% of 22
+Branches executed:100.00% of 6
+Taken at least once:66.67% of 6
+Calls executed:100.00% of 1
+
+Function 'getWinners'
+Lines executed:0.00% of 24
+Branches executed:0.00% of 22
+Taken at least once:0.00% of 22
+Calls executed:0.00% of 2
+
+Function 'scoreFor'
+Lines executed:0.00% of 24
+Branches executed:0.00% of 42
+Taken at least once:0.00% of 42
+Calls executed:0.00% of 3
+
+Function 'isGameOver'
+Lines executed:0.00% of 10
+Branches executed:0.00% of 8
+Taken at least once:0.00% of 8
+No calls
+
+Function 'endTurn'
+Lines executed:0.00% of 20
+Branches executed:0.00% of 6
+Taken at least once:0.00% of 6
+Calls executed:0.00% of 3
+
+Function 'whoseTurn'
+Lines executed:100.00% of 2
+No branches
+No calls
+
+Function 'fullDeckCount'
+Lines executed:0.00% of 9
+Branches executed:0.00% of 12
+Taken at least once:0.00% of 12
+No calls
+
+Function 'supplyCount'
+Lines executed:100.00% of 2
+No branches
+No calls
+
+Function 'handCard'
+Lines executed:0.00% of 3
+No branches
+Calls executed:0.00% of 1
+
+Function 'numHandCards'
+Lines executed:0.00% of 2
+No branches
+Calls executed:0.00% of 1
+
+Function 'buyCard'
+Lines executed:0.00% of 13
+Branches executed:0.00% of 6
+Taken at least once:0.00% of 6
+Calls executed:0.00% of 4
+
+Function 'playCard'
+Lines executed:0.00% of 14
+Branches executed:0.00% of 10
+Taken at least once:0.00% of 10
+Calls executed:0.00% of 3
+
+Function 'shuffle'
+Lines executed:100.00% of 16
+Branches executed:100.00% of 8
+Taken at least once:100.00% of 8
+Calls executed:100.00% of 2
+
+Function 'initializeGame'
+Lines executed:85.48% of 62
+Branches executed:100.00% of 46
+Taken at least once:82.61% of 46
+Calls executed:100.00% of 5
+
+Function 'kingdomCards'
+Lines executed:0.00% of 13
+No branches
+No calls
+
+Function 'newGame'
+Lines executed:0.00% of 3
+No branches
+No calls
+
+Function 'compare'
+Lines executed:83.33% of 6
+Branches executed:100.00% of 4
+Taken at least once:75.00% of 4
+No calls
+
+File 'dominion.c'
+Lines executed:35.64% of 564
+Branches executed:39.09% of 417
+Taken at least once:25.66% of 417
+Calls executed:32.00% of 100
+Creating 'dominion.c.gcov'
+
