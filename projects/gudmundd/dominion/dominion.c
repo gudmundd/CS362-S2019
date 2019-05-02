@@ -680,8 +680,8 @@ int action_adventurer(struct gameState *state)
 	int cardDrawn;
 	int z = 0;// this is the counter for the temp hand
 
-	while(drawntreasure<3) 															    // BUG #1 - change drawntreasure<2 to <3
-  //while(drawntreasure<2)																// Original line
+  while(drawntreasure<3) 	// BUG #1 
+  //while(drawntreasure<2)	// 
 	{
 		if (state->deckCount[currentPlayer] <1)  //if the deck is empty we need to shuffle discard and add to deck
 		{
@@ -690,8 +690,8 @@ int action_adventurer(struct gameState *state)
 		drawCard(currentPlayer, state);
 		cardDrawn = state->hand[currentPlayer][state->handCount[currentPlayer]-1];//top card of hand is most recently drawn card.
 		
-		if (cardDrawn == copper || (cardDrawn == silver && cardDrawn == gold)) 			// BUG #2 - change second || to &&
-	  //if (cardDrawn == copper || cardDrawn == silver || cardDrawn == gold) 			// Original line
+	  if (cardDrawn == copper || (cardDrawn == silver && cardDrawn == gold)) 	// BUG #2 
+	  //if (cardDrawn == copper || cardDrawn == silver || cardDrawn == gold) 	// 
 			drawntreasure++;
 		else{
 			temphand[z]=cardDrawn;
@@ -715,15 +715,15 @@ int action_smithy(struct gameState *state, int handPos)
 	int currentPlayer = whoseTurn(state);
 		
 	//+3 Cards
-	for (i = 1; i < 3; i++)															// BUG #1 - change i = 0 to i = 1
-  //for (i = 0; i < 3; i++)															// Original line
+	for (i = 1; i < 3; i++)		// BUG #1 
+    //for (i = 0; i < 3; i++)	// 
 	{
-		drawCard(currentPlayer+1, state);											// BUG #2 - change currentPlayer to 'currentPlayer+1'
-	  //drawCard(currentPlayer, state);												// Original line
+		drawCard(currentPlayer+1, state);	// BUG #2 
+		//drawCard(currentPlayer, state);	// 
 	}
 				
 	//discard card from hand
-	discardCard(handPos, currentPlayer, state, 0); 
+	discardCard(handPos, currentPlayer, state, 0);  
 	return 0;
 }
 
@@ -737,8 +737,8 @@ int action_remodel(int choice1, int choice2, struct gameState *state, int handPo
 	
 	j = state->hand[currentPlayer][choice1];  //store card we will trash
 
-	if ( (getCost(state->hand[currentPlayer][choice2]) + 2) >= getCost(choice1) )	// BUG #1 - change > to >=
-  //if ( (getCost(state->hand[currentPlayer][choice1]) + 2) > getCost(choice2) )	// Original line
+   if ( (getCost(state->hand[currentPlayer][choice2]) + 2) >= getCost(choice1) )	// BUG #1 
+   //if ( (getCost(state->hand[currentPlayer][choice1]) + 2) < getCost(choice2) )	// 
 	{
 		return -1;
 	}
@@ -749,21 +749,22 @@ int action_remodel(int choice1, int choice2, struct gameState *state, int handPo
 	discardCard(handPos, currentPlayer, state, 0);
 
 	//discard trashed card
-	for (i = 0; i < state->handCount[currentPlayer]; i++)
+	for (i = 0; i < state->handCount[currentPlayer]; i++)							
 	{
-		if (state->hand[currentPlayer][i] != j)										// BUG #2 - change == to !=
-	  //if (state->hand[currentPlayer][i] == j)										// Original line
+	  if (state->hand[currentPlayer][i] != j)	// BUG #2 
+	  //if (state->hand[currentPlayer][i] == j)	// 
 		{
-			discardCard(i, currentPlayer, state, 0);			
+			discardCard(i, currentPlayer, state, 0);	// BUG #3	
+			//discardCard(i, currentPlayer, state, 1);	// 
 			break;								
 		}
 	}
 	return 0;
 }
 
-// FEAST CARD																		// ******************
-// New refactored function per Assignment-2											// BUG #1 and BUG #2 - No Bugs are introduced to this function
-int action_feast(int choice1, struct gameState *state)								// ******************
+// FEAST CARD												// ******************
+// New refactored function per Assignment-2					// BUG #1 and BUG #2 - No Bugs are introduced to this function
+int action_feast(int choice1, struct gameState *state)		// ******************
 {
 	int i;
 	int x;
@@ -830,16 +831,20 @@ int action_sea_hag(struct gameState *state)
 	int i;
 	int currentPlayer = whoseTurn(state);
 	
-	for (i = 0; i < state->numPlayers; ++i)												// BUG #1 - change i++ to ++i
-  //for (i = 0; i < state->numPlayers; i++)												// Original line
+  for (i = 0; i < state->numPlayers; ++i)	// BUG #1 
+  //for (i = 0; i < state->numPlayers; i++)	// 
 	{
-		if (i == currentPlayer)															// BUG #2 - change != to ==
-	  //if (i != currentPlayer)															// Original line
+	  if (i == currentPlayer)		// BUG #2 
+	  //if (i != currentPlayer)		// 
 		{
-			state->discard[i][state->discardCount[i]] = state->deck[i][state->deckCount[i]--];			    
+			state->discard[i][state->discardCount[i]] = state->deck[i][state->deckCount[i]--];	// BUG #3  
+			//state->discard[i][state->discardCount[i]] = state->deck[i][state->deckCount[i]];	//   
 			state->deckCount[i]--;														
 			state->discardCount[i]++;
-			state->deck[i][state->deckCount[i]--] = curse;//Top card now a curse
+			state->deck[i][state->deckCount[i]--] = curse;//Top card now a curse		// BUG #4
+			//state->deck[i][state->deckCount[i]++] = curse;//Top card now a curse		// 
+			
+			//state->supplyCount[curse]--;	// decrease size of curse pile by 1		// BUG #5 (line missing)
 		}
 	}
 	return 0;
@@ -851,16 +856,16 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
   int i;
   int j;
   int k;
-  //int x;  																			// deleted due to refactoring in Assignment-2
+  //int x;  														// deleted due to refactoring in Assignment-2
   int index;
   int currentPlayer = whoseTurn(state);
   int nextPlayer = currentPlayer + 1;
 
   int tributeRevealedCards[2] = {-1, -1};
-  //int temphand[MAX_HAND];// moved above the if statement  							// deleted due to refactoring in Assignment-2
-  //int drawntreasure=0;  																// deleted due to refactoring in Assignment-2
-  //int cardDrawn;  																	// deleted due to refactoring in Assignment-2
-  //int z = 0;// this is the counter for the temp hand   								// deleted due to refactoring in Assignment-2
+  //int temphand[MAX_HAND];// moved above the if statement  		// deleted due to refactoring in Assignment-2
+  //int drawntreasure=0;  											// deleted due to refactoring in Assignment-2
+  //int cardDrawn;  												// deleted due to refactoring in Assignment-2
+  //int z = 0;// this is the counter for the temp hand   			// deleted due to refactoring in Assignment-2
   
   if (nextPlayer > (state->numPlayers - 1)){
     nextPlayer = 0;
